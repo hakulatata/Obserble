@@ -14,4 +14,55 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="color one"
+                android:layout_width="match_parent"
+                android:background="#ee3636"
+                android:layout_height="200dp" />
+            <TextView
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="color two"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:background="#ee3849"
+                android:layout_height="200dp" />
+            <TextView
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="color three"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:background="#ee4057"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="color four"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:background="#ee6666"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="color five"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:background="#ee8888"
+                android:layout_height="200dp" />
+        </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>
